@@ -9,6 +9,6 @@ public class PlayerHealth : Health
     {
         
         Debug.Log("plsyer death");
-         SceneManager.LoadScene("GameOver");
+         SceneManager.LoadScene("GameOver2");
     }
 }

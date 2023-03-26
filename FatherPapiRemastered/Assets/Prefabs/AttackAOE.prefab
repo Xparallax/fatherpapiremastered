@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7489691362361789263}
   - component: {fileID: 5183417855317234702}
-  - component: {fileID: 8529738923639553388}
+  - component: {fileID: -4445862806324760694}
   m_Layer: 0
   m_Name: AttackAOE
   m_TagString: Untagged
@@ -48,7 +48,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.88
---- !u!114 &8529738923639553388
+--- !u!114 &-4445862806324760694
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
