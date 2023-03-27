@@ -44,7 +44,10 @@ public class Fire : MonoBehaviour
     {
         for (int i = 0; i <= 2; i++)
         {
-            ammo[i].gameObject.SetActive(ammoAmount > i);
+            //ammo[i].gameObject.SetActive(ammoAmount > i);
+            if(ammoAmount > i){
+                ammo[i].gameObject.SetActive(true);
+            }
         }
     }
 

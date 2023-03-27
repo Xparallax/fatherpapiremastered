@@ -51,6 +51,6 @@ public class PlayerAttack : MonoBehaviour
     void Attack()
     {
         Instantiate(attackPrefab, attackSource.position, Quaternion.identity);
-        myAnimation.SetTrigger("Attack");
+        // myAnimation.SetTrigger("Attack");
     }    
 }

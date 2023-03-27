@@ -1420,10 +1420,10 @@ MonoBehaviour:
   barrel: {fileID: 1287655696}
   bullet: {fileID: 1236264259218327744, guid: 26c0a7d07567abf47a8237bc9aede86a, type: 3}
   ammo:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  ammoAmount: 0
+  - {fileID: 1481584378}
+  - {fileID: 1072298061}
+  - {fileID: 1908761424}
+  ammoAmount: 3
 --- !u!114 &715415628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1944,7 +1944,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1072298062
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2408,7 +2408,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1481584379
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2862,7 +2862,7 @@ GameObject:
   - component: {fileID: 1723963254}
   - component: {fileID: 1723963255}
   m_Layer: 0
-  m_Name: AttackArea
+  m_Name: AttacArea
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -2924,7 +2924,7 @@ SpriteRenderer:
   m_SortingOrder: 11
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -3212,7 +3212,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1908761425
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3299,7 +3299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4473f61fed7eed34e9422ab3a7979939, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyPrefab: {fileID: 0}
+  EnemyPrefab: {fileID: 2943423957095870901, guid: 1da6db907e5ce084b880aa518bdd7a11, type: 3}
   EnemyInterval: 3.5
 --- !u!4 &1941841991
 Transform:
