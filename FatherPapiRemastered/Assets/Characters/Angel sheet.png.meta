@@ -1,7 +1,58 @@
 fileFormatVersion: 2
 guid: ca186966654e1af47adb13708497b230
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -9039784633563151271
+    second: Angel sheet_9
+  - first:
+      213: 308764414315713347
+    second: Angel sheet_10
+  - first:
+      213: 6643245005453203266
+    second: Angel sheet_11
+  - first:
+      213: 6393238343962834440
+    second: Angel sheet_12
+  - first:
+      213: -12888216471070321
+    second: Angel sheet_13
+  - first:
+      213: -4658401975923237481
+    second: Angel sheet_14
+  - first:
+      213: 675333702074361863
+    second: Angel sheet_15
+  - first:
+      213: -6580414556128473012
+    second: Angel sheet_16
+  - first:
+      213: -8569752279892094027
+    second: Angel sheet_17
+  - first:
+      213: 9150996048246635812
+    second: Angel sheet_18
+  - first:
+      213: 3965866499066302899
+    second: Angel sheet_19
+  - first:
+      213: -7331172330355264762
+    second: Angel sheet_20
+  - first:
+      213: -6342295404561610739
+    second: Angel sheet_21
+  - first:
+      213: 5436217331210101643
+    second: Angel sheet_22
+  - first:
+      213: 1808896132503201929
+    second: Angel sheet_23
+  - first:
+      213: 90317225112427792
+    second: Angel sheet_24
+  - first:
+      213: 9198635959980790752
+    second: Angel sheet_25
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -41,7 +92,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -102,7 +153,553 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Angel sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12583
+        width: 2547
+        height: 3801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7027ba173e2b50de0800000000000000
+      internalID: -1367490221902695929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angel sheet_1
+      rect:
+        serializedVersion: 2
+        x: 2547
+        y: 12608
+        width: 2590
+        height: 3752
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c013e6968609c7f50800000000000000
+      internalID: 6880533108835102988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angel sheet_2
+      rect:
+        serializedVersion: 2
+        x: 5113
+        y: 12753
+        width: 2300
+        height: 3631
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f9b8ad877afa3d0800000000000000
+      internalID: -3193149473277894827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angel sheet_3
+      rect:
+        serializedVersion: 2
+        x: 7388
+        y: 12825
+        width: 2373
+        height: 3559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2c88aa3a9b8aea0800000000000000
+      internalID: -5861230802430803205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angel sheet_4
+      rect:
+        serializedVersion: 2
+        x: 9712
+        y: 12946
+        width: 2615
+        height: 3438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57890f04f8f3e730800000000000000
+      internalID: 4027336218907346780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angel sheet_5
+      rect:
+        serializedVersion: 2
+        x: 12254
+        y: 12850
+        width: 2615
+        height: 3534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc19dcf9816dc89b0800000000000000
+      internalID: -5076447278704782897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angel sheet_6
+      rect:
+        serializedVersion: 2
+        x: 14820
+        y: 12946
+        width: 2494
+        height: 3438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c14ebb47491baa20800000000000000
+      internalID: 3074578964614627780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angel sheet_7
+      rect:
+        serializedVersion: 2
+        x: 17241
+        y: 13067
+        width: 2518
+        height: 3317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764c186370eaf28a0800000000000000
+      internalID: -6327647605429779353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angel sheet_8
+      rect:
+        serializedVersion: 2
+        x: 19734
+        y: 13140
+        width: 2639
+        height: 3196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9e6b24e41d54450800000000000000
+      internalID: 6072489806635919860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angel sheet_9
+      rect:
+        serializedVersion: 2
+        x: 22349
+        y: 12898
+        width: 2251
+        height: 3486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9540f6645cb3c8280800000000000000
+      internalID: -9039784633563151271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angel sheet_10
+      rect:
+        serializedVersion: 2
+        x: 24624
+        y: 12850
+        width: 2421
+        height: 3534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343d1925993f84400800000000000000
+      internalID: 308764414315713347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angel sheet_11
+      rect:
+        serializedVersion: 2
+        x: 27118
+        y: 12801
+        width: 2445
+        height: 3583
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2471de1922c813c50800000000000000
+      internalID: 6643245005453203266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angel sheet_12
+      rect:
+        serializedVersion: 2
+        x: 29563
+        y: 12825
+        width: 2735
+        height: 3511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806bf48a66859b850800000000000000
+      internalID: 6393238343962834440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angel sheet_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9388
+        width: 2232
+        height: 3268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8914734c3632dff0800000000000000
+      internalID: -12888216471070321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angel sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 8976
+        width: 2445
+        height: 3535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d1e1c85180a5fb0800000000000000
+      internalID: -4658401975923237481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angel sheet_15
+      rect:
+        serializedVersion: 2
+        x: 4846
+        y: 8686
+        width: 2349
+        height: 3946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708edf88c644f5900800000000000000
+      internalID: 675333702074361863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angel sheet_16
+      rect:
+        serializedVersion: 2
+        x: 7267
+        y: 8928
+        width: 2445
+        height: 3825
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40172363dbada4a0800000000000000
+      internalID: -6580414556128473012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angel sheet_17
+      rect:
+        serializedVersion: 2
+        x: 9712
+        y: 8976
+        width: 2421
+        height: 3849
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b310f7b4bf121980800000000000000
+      internalID: -8569752279892094027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angel sheet_18
+      rect:
+        serializedVersion: 2
+        x: 12351
+        y: 9170
+        width: 2518
+        height: 3510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d7ebcfb6edefe70800000000000000
+      internalID: 9150996048246635812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angel sheet_19
+      rect:
+        serializedVersion: 2
+        x: 14820
+        y: 9001
+        width: 2348
+        height: 3655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1187f9196990730800000000000000
+      internalID: 3965866499066302899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angel sheet_20
+      rect:
+        serializedVersion: 2
+        x: 17265
+        y: 8831
+        width: 2421
+        height: 3922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60370069b91724a90800000000000000
+      internalID: -7331172330355264762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angel sheet_21
+      rect:
+        serializedVersion: 2
+        x: 19686
+        y: 8880
+        width: 2421
+        height: 3607
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d084386bee3abf7a0800000000000000
+      internalID: -6342295404561610739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angel sheet_22
+      rect:
+        serializedVersion: 2
+        x: 22155
+        y: 8492
+        width: 2736
+        height: 3946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83a9944cd2517b40800000000000000
+      internalID: 5436217331210101643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angel sheet_23
+      rect:
+        serializedVersion: 2
+        x: 24891
+        y: 8468
+        width: 2348
+        height: 3994
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9886e65d27d7a1910800000000000000
+      internalID: 1808896132503201929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angel sheet_24
+      rect:
+        serializedVersion: 2
+        x: 27263
+        y: 8395
+        width: 2348
+        height: 4043
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ddce7a90fd04100800000000000000
+      internalID: 90317225112427792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angel sheet_25
+      rect:
+        serializedVersion: 2
+        x: 29684
+        y: 8250
+        width: 2396
+        height: 4091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e31acc4bae18af70800000000000000
+      internalID: 9198635959980790752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

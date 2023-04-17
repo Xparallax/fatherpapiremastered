@@ -34,4 +34,12 @@ void TakeDamage(int damage)
         Debug.Log("plsyer death");
          SceneManager.LoadScene("GameOver2");
     }
+
+
+
+    public Update(){
+        // access player object
+        // access health from other script
+        // update health here
+    }
 }
