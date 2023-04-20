@@ -9,7 +9,9 @@ public class Health : MonoBehaviour
     [SerializeField] private int health = 100;
 
     private int MAX_HEALTH = 100;
-  
+
+    public PlayerHealth playerHealthRef;
+
 
 
     // Update is called once per frame
@@ -30,6 +32,7 @@ public class Health : MonoBehaviour
     {
         this.MAX_HEALTH = maxHealth;
         this.health = health;
+        
     }
 
     private  IEnumerator VisualIndicator(Color color)
@@ -50,8 +53,10 @@ public class Health : MonoBehaviour
         }
 
         this.health -= amount;
-        StartCoroutine(VisualIndicator(Color.red));
 
+        StartCoroutine(VisualIndicator(Color.red));
+ 
+       
         if(health <= 0)
         {
             
@@ -82,6 +87,11 @@ public class Health : MonoBehaviour
         }
 
         this.health += amount;
+    }
+    public int getHealth()
+    {
+
+        return this.health;
     }
 
     

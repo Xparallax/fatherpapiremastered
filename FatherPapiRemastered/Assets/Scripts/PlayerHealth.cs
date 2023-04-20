@@ -8,24 +8,40 @@ public class PlayerHealth : Health
 
     
 {
-    public int maxHealth = 350;
+    public int maxHealth = 500;
     public int currentHealth;
-
-public HealthBar healthBar; 
+    public int newhealth;
+    public int sliderHealth;
+    public HealthBar healthBar; 
+    public Health actualHp;
+    private GameObject player;
+ 
 
     void Start()
     {
-        currentHealth = maxHealth;
-        healthBar.setMaxHealth(maxHealth);
+        GetComponent<Health>().SetHealth(maxHealth, maxHealth);
     }
 
-void TakeDamage(int damage)
+  void Update()
  {
       // The following line ensures that currentHealth is minimum 0 (avoid negative number)
-      currentHealth = Mathf.Max(0, currentHealth - damage);
-      healthBar.setHealth(currentHealth);
-      if (currentHealth == 0)
+      currentHealth = GetComponent<Health>().getHealth();
+      healthBar.updateHp(currentHealth);
+      if (currentHealth <= 0)
            Destroy(gameObject);
+      
+ }
+ public int getMaxHealth(){
+
+    return maxHealth;
+
+
+ }
+  public int getCurrentHealth(){
+
+    return currentHealth;
+
+
  }
 
     protected override void Die()
@@ -36,10 +52,9 @@ void TakeDamage(int damage)
     }
 
 
-
-    public Update(){
+   // public Update(){
         // access player object
         // access health from other script
         // update health here
-    }
+   // }
 }

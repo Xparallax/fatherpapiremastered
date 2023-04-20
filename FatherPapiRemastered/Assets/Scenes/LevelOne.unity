@@ -1338,6 +1338,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 616047549}
+  playerHp: {fileID: 0}
+  player: {fileID: 0}
 --- !u!114 &616047549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4426,9 +4428,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 350
+  playerHealthRef: {fileID: 2069465502}
   maxHealth: 350
   currentHealth: 350
+  newhealth: 0
+  sliderHealth: 0
   healthBar: {fileID: 616047548}
+  actualHp: {fileID: 0}
 --- !u!114 &2069465503
 MonoBehaviour:
   m_ObjectHideFlags: 0
