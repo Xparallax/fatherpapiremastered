@@ -42,7 +42,7 @@ public class Ally : MonoBehaviour
         {
             transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
             float direction = transform.position.x - player.transform.position.x;
-            sp.flipX = direction > 0;
+            //sp.flipX = direction > 0;
         }
     }
     
