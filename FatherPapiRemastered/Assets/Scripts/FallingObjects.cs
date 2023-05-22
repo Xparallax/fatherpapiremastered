@@ -43,14 +43,17 @@ public class FallingObjects : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        //if (isFalling && other.CompareTag("Player"))
-        //{
-            // Apply damage to the player
-         //   PlayerHealth Health = other.GetComponent<PlayerHealth>();
-       //     if (Health != null)
-     //       {
-   //             Health.TakeDamage(damageAmount);
- //           }
+        Debug.Log("fall -- Other:"+other+". isFalling:"+isFalling);
+        if (other.CompareTag("Player"))
+        {
+            //Apply damage to the player
+           PlayerHealth Health = other.GetComponent<PlayerHealth>();
+           Debug.Log("bone hit player"+Health);
+           
+          //  if (Health != null)
+         //  {
+          //     Health.TakeDamage(damageAmount);
+          // }
         }
- //   }
+   }
 }

@@ -19,6 +19,7 @@ public class Ally : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Enemy");
+        Debug.Log(player);
         sp = GetComponent<SpriteRenderer>();
         SetEnemyValues();
     }
@@ -41,7 +42,7 @@ public class Ally : MonoBehaviour
         if (player != null)
         {
             transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
-            float direction = transform.position.x - player.transform.position.x;
+            // float direction = transform.position.x - player.transform.position.x;
             //sp.flipX = direction > 0;
         }
     }
