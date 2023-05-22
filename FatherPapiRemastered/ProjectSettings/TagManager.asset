@@ -8,6 +8,7 @@ TagManager:
   - Text
   - Bible
   - God
+  - Boss
   layers:
   - Default
   - TransparentFX

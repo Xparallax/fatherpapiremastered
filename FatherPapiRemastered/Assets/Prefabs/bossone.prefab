@@ -35,7 +35,7 @@ Transform:
   m_GameObject: {fileID: 2943423957095870901}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.1724, y: -1.7051, z: 0}
-  m_LocalScale: {x: 0.2516511, y: 0.25589904, z: 0}
+  m_LocalScale: {x: 0.2550664, y: 0.259372, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -205,7 +205,7 @@ Animator:
   m_GameObject: {fileID: 2943423957095870901}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d237affce72e3194f870a072471219ab, type: 2}
+  m_Controller: {fileID: 9100000, guid: e7d538870ff69b846845c2251a017792, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -226,8 +226,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93306cd42618ccf4e8fbcd2a026cc4c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  dashSpeed: 10
+  player: {fileID: 2731385572868415392, guid: aee36cd47f8f20c40a2a7c7785d23c84, type: 3}
+  dashSpeed: 6.66
   dashInterval: 5
   dashDuration: 3
   dashCooldown: 2
@@ -247,7 +247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 5
-  speed: 1.5
+  speed: 0.7
   data: {fileID: 11400000, guid: 9eb137ea5581ac448a4e703e7cf8ae0e, type: 2}
 --- !u!114 &1317859120096430689
 MonoBehaviour:
@@ -262,5 +262,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1000
-  speed: 6
+  speed: 1.75
   data: {fileID: 11400000, guid: 9eb137ea5581ac448a4e703e7cf8ae0e, type: 2}

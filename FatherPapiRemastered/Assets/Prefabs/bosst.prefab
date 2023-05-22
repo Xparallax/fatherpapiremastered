@@ -269,7 +269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e4d3c4597c076449a9f009953fa3d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 2731385572868415392, guid: aee36cd47f8f20c40a2a7c7785d23c84, type: 3}
   bulletPrefab: {fileID: 3804797166858224070, guid: e53e95e753659c94b96088fa2901c075, type: 3}
   attackRange: 5
   attackDelay: 2
