@@ -34,11 +34,11 @@ public class Boss : MonoBehaviour
         }
     }
 
-    void Attack()
-    {
+   void Attack()
+   {
         // Rotate the enemy to face the player
-        Vector2 direction = player.position - transform.position;
-        transform.right = direction;
+ //       Vector2 direction = player.position - transform.position;
+   //     transform.right = direction;
 
         // Instantiate a bullet
         GameObject bullet = Instantiate(bulletPrefab, transform.position, transform.rotation);

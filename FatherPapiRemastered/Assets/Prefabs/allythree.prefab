@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 1979909727639185443}
   - component: {fileID: 471611563930858214}
   - component: {fileID: 4192391512780509207}
+  - component: {fileID: -6802694261610456708}
   m_Layer: 0
   m_Name: allythree
   m_TagString: Untagged
@@ -176,6 +177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 80
+  playerHealthRef: {fileID: 0}
 --- !u!114 &-1334932230197462665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -239,3 +241,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-6802694261610456708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2943423957095870901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b077eb8630577a74c8b5a23e60ae00cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 2731385572868415392, guid: aee36cd47f8f20c40a2a7c7785d23c84, type: 3}
+  movementSpeed: 5
+  healAmount: 10
+  healingDistance: 2

@@ -1835,6 +1835,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossTwo
       objectReference: {fileID: 0}
+    - target: {fileID: 2943423957095870901, guid: 276f3d429350a784497617bbcdfc9fa9, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2943423957095870911, guid: 276f3d429350a784497617bbcdfc9fa9, type: 3}
       propertyPath: m_RootOrder
       value: 15
