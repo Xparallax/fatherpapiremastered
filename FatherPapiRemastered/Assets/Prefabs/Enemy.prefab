@@ -164,6 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
+  playerHealthRef: {fileID: 0}
 --- !u!114 &6227596914284894113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -203,7 +204,7 @@ Animator:
   m_GameObject: {fileID: 5909055833552450257}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2b82173687108fd40b2b8b5783791dff, type: 2}
+  m_Controller: {fileID: 9100000, guid: a3dc862fff4f5ba4a8f8775b9db84547, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

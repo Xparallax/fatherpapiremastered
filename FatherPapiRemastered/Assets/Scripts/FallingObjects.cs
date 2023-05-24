@@ -27,13 +27,16 @@ public class FallingObjects : MonoBehaviour
         Invoke("StopFalling", damageDuration);
     }
 
-    void SpawnObject()
+void SpawnObject()
     {
-        Vector2 spawnPosition = new Vector2(Random.Range(-10f, 10f), 10f);
+        Vector2 spawnPosition = new Vector2(Random.Range(-40f, 40f), 40f);
         GameObject fallingObject = Instantiate(objectPrefab, spawnPosition, Quaternion.identity);
         Rigidbody2D rb = fallingObject.GetComponent<Rigidbody2D>();
         rb.velocity = Vector2.down * fallSpeed;
     }
+
+
+    
 
     void StopFalling()
     {
