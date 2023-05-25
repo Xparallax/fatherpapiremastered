@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossEnemy : MonoBehaviour
 {
@@ -55,6 +56,11 @@ public class BossEnemy : MonoBehaviour
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
+    }
+
+    void OnDestroy()
+    {
+        SceneManager.LoadScene("CutsceneTwo");
     }
 }
 

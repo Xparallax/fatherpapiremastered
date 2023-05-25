@@ -63,5 +63,6 @@ public class God : MonoBehaviour
     {
         if (gameAudio != null)
             gameAudio.SwitchToNormal();
+            
     }
 }

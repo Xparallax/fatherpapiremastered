@@ -230,7 +230,7 @@ MonoBehaviour:
   dashSpeed: 6.66
   dashInterval: 5
   dashDuration: 3
-  dashCooldown: 2
+  dashCooldown: 4
   jumpForce: 10
   jumpInterval: 3
   jumpCooldown: 2

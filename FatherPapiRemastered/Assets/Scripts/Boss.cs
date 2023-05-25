@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Boss : MonoBehaviour
 {
@@ -47,5 +48,14 @@ public class Boss : MonoBehaviour
         Rigidbody2D bulletRigidbody = bullet.GetComponent<Rigidbody2D>();
         bulletRigidbody.velocity = transform.right * bulletSpeed;
     }
+
+void OnDestroy()
+    {
+        SceneManager.LoadScene("InBetween");
+    }
+
+
 }
+
+
 
