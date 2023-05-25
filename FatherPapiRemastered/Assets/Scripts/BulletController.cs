@@ -33,4 +33,12 @@ public class BulletController : MonoBehaviour
         Vector3 newDirection = Vector3.RotateTowards(transform.right, direction, rotateAmount, 0f);
         transform.right = newDirection;
     }
+      void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            // Destroy the player
+            Destroy(other.gameObject);
+        }
+    }
 }

@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/InBetween.unity
     guid: 245d85ca22d8c574ea284dc2d697e302
   - enabled: 1
+    path: Assets/Scenes/CutsceneThree.unity
+    guid: 104379a8995bcd2498c9e4a89ec6e35f
+  - enabled: 1
     path: Assets/Scenes/GameOver2.unity
     guid: 6a0e4a38c7531544eaf87b8003a42910
   m_configObjects: {}

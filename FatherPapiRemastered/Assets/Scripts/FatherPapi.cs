@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FatherPapi : MonoBehaviour
 {
@@ -16,42 +17,46 @@ public class FatherPapi : MonoBehaviour
     private bool isThrowing = false;
     private bool isJumping = false;
     private bool isRunningAway = false;
-    private int initialHealth;
+    private float initialHealth;
 
-    //void Start()
-  //  {
-       // InvokeRepeating("Throw", throwInterval, throwDuration);
-        //initialHealth = GetComponent<God>().GetCurrentHealth();
-  //  }
+public GameObject projectilePrefab; 
+    private Health health; // Reference to the Health component
 
-   // void Update()
-   // {
-       // if (!isThrowing && !isJumping && !isRunningAway)
-        //{
-           // int currentHealth = GetComponent<God>().GetCurrentHealth();
-           // if (currentHealth < initialHealth * (lowHealthThreshold / 100f))
-           // {
-          //      isRunningAway = true;
-          //      Invoke("StopRunningAway", runAwayDuration);
-          //  }
-       // }
-   // }
+    void Start()
+    {
+        InvokeRepeating("Throw", throwInterval, throwDuration);
+        health = GetComponent<Health>(); // Get reference to Health component
+        initialHealth = health.getHealth(); // Get the maximum health value
+    }
 
- //   void Throw()
- //   {
-      //  if (!isThrowing && !isJumping && !isRunningAway)
-      //  {
+    void Update()
+    {
+        if (!isThrowing && !isJumping && !isRunningAway)
+        {
+            int currentHealth = health.getHealth(); // Get the current health value
+            if (currentHealth < initialHealth * (lowHealthThreshold / 100f))
+            {
+                isRunningAway = true;
+                Invoke("StopRunningAway", runAwayDuration);
+            }
+        }
+    }
+
+    void Throw()
+    {
+        if (!isThrowing && !isJumping && !isRunningAway)
+        {
             // Instantiate and throw objects towards the player
-          //  GameObject projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
-        //    Vector2 direction = (player.position - transform.position).normalized;
-         //   Rigidbody2D projectileRb = projectile.GetComponent<Rigidbody2D>();
-         //   projectileRb.AddForce(direction * throwForce, ForceMode2D.Impulse);
+            GameObject projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
+            Vector2 direction = (player.position - transform.position).normalized;
+            Rigidbody2D projectileRb = projectile.GetComponent<Rigidbody2D>();
+            projectileRb.AddForce(direction * throwForce, ForceMode2D.Impulse);
 
             // Set throwing flag and schedule stop throwing
-          ////  isThrowing = true;
-          //  Invoke("StopThrowing", throwDuration);
-     //   }
-   // }
+            isThrowing = true;
+            Invoke("StopThrowing", throwDuration);
+        }
+    }
 
     void StopThrowing()
     {
@@ -62,5 +67,12 @@ public class FatherPapi : MonoBehaviour
     {
         isRunningAway = false;
     }
+
+    
+void OnDestroy()
+    {
+        SceneManager.LoadScene("CutsceneThree");
+    }
+
 }
 
