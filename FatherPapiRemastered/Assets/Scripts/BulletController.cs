@@ -16,13 +16,14 @@ public class BulletController : MonoBehaviour
     }
 
     void Update()
-    {
+   {
+    
+        //    // If the target is destroyed, destroy the bullet
         if (target == null)
         {
-            // If the target is destroyed, destroy the bullet
-            Destroy(gameObject);
-            return;
-        }
+        Destroy(gameObject);
+          return;
+        } 
 
         // Move towards the target
         Vector2 direction = (target.position - transform.position).normalized;

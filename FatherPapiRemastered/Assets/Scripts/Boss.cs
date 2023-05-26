@@ -10,7 +10,7 @@ public class Boss : MonoBehaviour
     public float attackRange = 5f;
     public float attackDelay = 2f;
     public float bulletSpeed = 10f;
-
+    GameObject bullet;
     private float attackTimer = 0f;
 
     void Update()
@@ -42,7 +42,8 @@ public class Boss : MonoBehaviour
    //     transform.right = direction;
 
         // Instantiate a bullet
-        GameObject bullet = Instantiate(bulletPrefab, transform.position, transform.rotation);
+        Debug.Log("bulletfired");
+       Instantiate(bulletPrefab, transform.position, transform.rotation);
 
         // Set the bullet's velocity
         Rigidbody2D bulletRigidbody = bullet.GetComponent<Rigidbody2D>();
