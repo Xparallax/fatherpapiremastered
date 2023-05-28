@@ -69,10 +69,9 @@ public GameObject projectilePrefab;
     }
 
     
-void OnDestroy()
+    void OnDestroy()
     {
         SceneManager.LoadScene("CutsceneThree");
     }
-
 }
 

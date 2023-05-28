@@ -104,7 +104,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.20134726, y: 0.039379597}
+  m_Offset: {x: 0.034324884, y: 0.35309637}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -115,7 +115,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.3614032, y: 5.829465}
+  m_Size: {x: 3.864603, y: 5.202031}
   m_EdgeRadius: 0
 --- !u!50 &2943423957095870896
 Rigidbody2D:
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1000
-  speed: 6
+  speed: 2
   data: {fileID: 11400000, guid: 9eb137ea5581ac448a4e703e7cf8ae0e, type: 2}
 --- !u!61 &2943423957095870898
 BoxCollider2D:
@@ -166,7 +166,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.2164619, y: 0.034757137}
+  m_Offset: {x: 0.028562307, y: 0.34272528}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -177,7 +177,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.4485354, y: 5.800765}
+  m_Size: {x: 3.7429566, y: 5.1848288}
   m_EdgeRadius: 0
 --- !u!114 &4544457268044063096
 MonoBehaviour:
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1000
-  speed: 5
+  speed: 2
   data: {fileID: 11400000, guid: 9eb137ea5581ac448a4e703e7cf8ae0e, type: 2}
 --- !u!95 &7745833945385332551
 Animator:
@@ -262,6 +262,6 @@ MonoBehaviour:
   throwDuration: 10
   jumpForce: 5
   runAwayDistance: 10
-  runAwayDuration: 3
+  runAwayDuration: 2
   lowHealthThreshold: 30
-  projectilePrefab: {fileID: 1236264259218327744, guid: 26c0a7d07567abf47a8237bc9aede86a, type: 3}
+  projectilePrefab: {fileID: 1236264259218327744, guid: 331b269f8470913408971a50934df4eb, type: 3}

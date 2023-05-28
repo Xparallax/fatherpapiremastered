@@ -25,7 +25,7 @@ public class Fire : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P) && ammoAmount > 0)
+        if (Input.GetKeyDown(KeyCode.O) && ammoAmount > 0)
         {
             var spawnedBullet = Instantiate(bullet, barrel.position, barrel.rotation);
             spawnedBullet.GetComponent<Rigidbody2D>().AddForce(Vector2.right * 500f * Mathf.Sign(transform.localScale.x));

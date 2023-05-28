@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 1979909727639185443}
   - component: {fileID: 471611563930858214}
   - component: {fileID: 4192391512780509207}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: angel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176,6 +176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 80
+  playerHealthRef: {fileID: 0}
 --- !u!114 &-1334932230197462665
 MonoBehaviour:
   m_ObjectHideFlags: 0

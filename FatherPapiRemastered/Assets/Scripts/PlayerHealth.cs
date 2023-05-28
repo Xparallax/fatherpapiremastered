@@ -44,12 +44,12 @@ public class PlayerHealth : Health
 
  }
 
-    protected override void Die()
-    {
+ //   protected override void Die()
+   // {
         
-        Debug.Log("plsyer death");
-         SceneManager.LoadScene("GameOver2");
-    }
+     //   Debug.Log("plsyer death");
+     //    SceneManager.LoadScene("GameOver2");
+    //}
 
 
    // public Update(){

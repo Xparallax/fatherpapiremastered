@@ -27,6 +27,15 @@ EditorBuildSettings:
     path: Assets/Scenes/CutsceneThree.unity
     guid: 104379a8995bcd2498c9e4a89ec6e35f
   - enabled: 1
+    path: Assets/Scenes/LevelThree.unity
+    guid: 73127021e7ff885409f42af957e474ca
+  - enabled: 1
+    path: Assets/Scenes/CutsceneFour.unity
+    guid: beba449f876e297448da4870905a626c
+  - enabled: 1
+    path: Assets/Scenes/LevelFour.unity
+    guid: 3bc4f88bfb4836d4aadfd029edf1a855
+  - enabled: 1
     path: Assets/Scenes/GameOver2.unity
     guid: 6a0e4a38c7531544eaf87b8003a42910
   m_configObjects: {}

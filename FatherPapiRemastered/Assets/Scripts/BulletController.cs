@@ -7,6 +7,11 @@ public class BulletController : MonoBehaviour
     private Transform target;
     private float speed;
     private float rotateSpeed;
+    public GameObject player;
+    void start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+    }
 
     public void SetTarget(Transform target, float speed, float rotateSpeed)
     {

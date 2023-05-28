@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 471611563930858214}
   - component: {fileID: 4192391512780509207}
   - component: {fileID: -6802694261610456708}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: allythree
   m_TagString: Untagged
   m_Icon: {fileID: 0}

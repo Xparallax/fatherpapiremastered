@@ -9,6 +9,7 @@ TagManager:
   - Bible
   - God
   - Boss
+  - Bullet
   layers:
   - Default
   - TransparentFX
