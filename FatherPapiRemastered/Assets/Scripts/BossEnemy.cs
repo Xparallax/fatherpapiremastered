@@ -34,6 +34,8 @@ public class BossEnemy : MonoBehaviour
             Vector2 direction = (player.position - transform.position).normalized;
             transform.Translate(direction * dashSpeed * Time.deltaTime);
         }
+
+        
     }
 
     void Dash()
@@ -57,6 +59,7 @@ public class BossEnemy : MonoBehaviour
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
     }
+    
 
     void OnDestroy()
     {

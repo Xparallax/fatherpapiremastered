@@ -5,7 +5,7 @@ public class Loadf : MonoBehaviour {
     
     // Use this for initialization
     IEnumerator Start () {
-        yield return new WaitForSeconds(20);        
+        yield return new WaitForSeconds(50);        
         Application.LoadLevel ("LevelFour");  }
    
     // Update is called once per frame

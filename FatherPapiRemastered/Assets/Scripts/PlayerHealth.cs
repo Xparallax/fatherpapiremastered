@@ -28,7 +28,7 @@ public class PlayerHealth : Health
       currentHealth = GetComponent<Health>().getHealth();
       healthBar.updateHp(currentHealth);
       if (currentHealth <= 0)
-           Destroy(gameObject);
+           Destroy(player);
       
  }
  public int getMaxHealth(){
