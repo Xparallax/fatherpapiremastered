@@ -20,5 +20,5 @@ public class GameAudio : MonoBehaviour
         audioSource.Stop();
         audioSource.clip = backgroundMusic;
         audioSource.Play();
-        }
+    }
 }

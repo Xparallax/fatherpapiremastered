@@ -61,9 +61,21 @@ public class BossEnemy : MonoBehaviour
     }
     
 
-    void OnDestroy()
+ private void Die()
     {
-        SceneManager.LoadScene("CutsceneTwo");
+        if (gameObject.CompareTag("God")== null)
+        {
+            SceneManager.LoadScene("CutsceneTwo");
+        }
     }
-}
 
+ void OnDestroy()
+    {
+        if (gameObject.CompareTag("God")== null) 
+        {
+            SceneManager.LoadScene("CutsceneTwo");
+        }
+    }
+
+
+}

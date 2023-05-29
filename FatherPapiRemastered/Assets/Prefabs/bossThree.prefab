@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 7654915078970033657}
   - component: {fileID: 7745833945385332551}
   - component: {fileID: 2088172700435307943}
-  - component: {fileID: 2515833678625557377}
+  - component: {fileID: 1304225730217729922}
   m_Layer: 0
   m_Name: bossThree
   m_TagString: God
@@ -278,7 +278,7 @@ MonoBehaviour:
   jumpForce: 5
   jumpInterval: 3
   jumpCooldown: 2
---- !u!114 &2515833678625557377
+--- !u!114 &1304225730217729922
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -287,7 +287,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 2943423957095870901}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84342fb3c74e40f4fa6cb156ce75e6ad, type: 3}
+  m_Script: {fileID: 11500000, guid: 6854686d2f7d8f049aa1997d6720714b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneName: CutsceneFour

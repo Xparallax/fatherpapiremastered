@@ -15,11 +15,13 @@ public class PlayerHealth : Health
     public HealthBar healthBar; 
     public Health actualHp;
     private GameObject player;
+    private string previousSceneName;
  
 
     void Start()
     {
         GetComponent<Health>().SetHealth(maxHealth, maxHealth);
+         previousSceneName = SceneManager.GetActiveScene().name;
     }
 
   void Update()
@@ -40,10 +42,13 @@ public class PlayerHealth : Health
   public int getCurrentHealth(){
 
     return currentHealth;
-
-
  }
 
+
+  
+
+
+}
  //   protected override void Die()
    // {
         
@@ -57,4 +62,4 @@ public class PlayerHealth : Health
         // access health from other script
         // update health here
    // }
-}
+

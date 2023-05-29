@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 7654915078970033657}
   - component: {fileID: 7745833945385332551}
   - component: {fileID: -2581172082500751206}
+  - component: {fileID: 4081169055020921097}
   m_Layer: 0
   m_Name: BossTwo
   m_TagString: God
@@ -273,3 +274,15 @@ MonoBehaviour:
   player: {fileID: 2731385572868415392, guid: aee36cd47f8f20c40a2a7c7785d23c84, type: 3}
   throwInterval: 0.2
   throwForce: 10
+--- !u!114 &4081169055020921097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2943423957095870901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f83ef1f69db3de84b879ae8c5003e105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

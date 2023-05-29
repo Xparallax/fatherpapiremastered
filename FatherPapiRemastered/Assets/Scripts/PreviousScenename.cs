@@ -17,7 +17,7 @@ public class previousScenename : MonoBehaviour
         if (gameObject.CompareTag("Player"))
         {
             // Reload the previous level
-            SceneManager.LoadScene("LevelTwo");
+           // SceneManager.LoadScene(previousSceneName);
         }
     }
 }

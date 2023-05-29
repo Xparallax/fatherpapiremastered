@@ -1687,10 +1687,10 @@ RectTransform:
   m_Father: {fileID: 1638677695}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -614.17456, y: 411}
-  m_SizeDelta: {x: -1377.3582, y: -1019.94}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 345.82544, y: -129}
+  m_SizeDelta: {x: 542.64185, y: 60.059998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &566786054
 MonoBehaviour:
@@ -2090,7 +2090,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 43, y: 39}
+  m_AnchoredPosition: {x: -22, y: 34}
   m_SizeDelta: {x: 395.4448, y: 141.0595}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &929411254
@@ -2113,7 +2113,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The Sacrifice is Accomplished
+  m_text: The work is  complete
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dbede362647ff8643a7be9711bc03411, type: 2}
   m_sharedMaterial: {fileID: -385742959001104746, guid: dbede362647ff8643a7be9711bc03411, type: 2}
@@ -2147,7 +2147,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0

@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 5704645168890532828}
   - component: {fileID: 4202568188546094521}
   - component: {fileID: 1317859120096430689}
+  - component: {fileID: 1837247955806182674}
   m_Layer: 0
   m_Name: bossone
   m_TagString: God
@@ -264,3 +265,15 @@ MonoBehaviour:
   damage: 1000
   speed: 1.75
   data: {fileID: 11400000, guid: 9eb137ea5581ac448a4e703e7cf8ae0e, type: 2}
+--- !u!114 &1837247955806182674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2943423957095870901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1840f2c3f9a4a04a90dd61a88408e87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

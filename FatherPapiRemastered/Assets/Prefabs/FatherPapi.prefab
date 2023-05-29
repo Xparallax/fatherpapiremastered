@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 7654915078970033657}
   - component: {fileID: 7745833945385332551}
   - component: {fileID: 5279808741732834953}
+  - component: {fileID: -8305002810396733650}
   m_Layer: 0
   m_Name: FatherPapi
   m_TagString: God
@@ -265,3 +266,15 @@ MonoBehaviour:
   runAwayDuration: 2
   lowHealthThreshold: 30
   projectilePrefab: {fileID: 1236264259218327744, guid: 331b269f8470913408971a50934df4eb, type: 3}
+--- !u!114 &-8305002810396733650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2943423957095870901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c5adf89bfda9254d813b22e7ae3c8f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
